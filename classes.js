@@ -150,12 +150,12 @@ It can :
 
 class Machine {
     constructor() {
-        this.widgets_made_count = 0
-        this.wear_and_tear_count = 0
-        this.needs_reboot = false
+        this.widgets_made_count = 0;
+        this.wear_and_tear_count = 0;
+        this.needs_reboot = false;
     }
     makeWidgets(num) {
-        this.widgets_made_count += num
+        this.widgets_made_count += num;
         this.wear_and_tear_count = (this.widgets_made_count / 50)
     }
     fixMachine() {
